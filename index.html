@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sushi Katana</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+<div class="header">
+  <h1>🍣 Sushi Katana</h1>
+  <select id="lang" onchange="changeLang()">
+    <option value="ru">Русский</option>
+    <option value="uz">O'zbek</option>
+  </select>
+</div>
+
+<div id="menu"></div>
+
+<div class="cart">
+  <button onclick="checkout()">Оформить заказ</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

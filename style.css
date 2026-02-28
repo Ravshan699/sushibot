@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #e60023;
+}
+
+.item {
+  background: #222;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #e60023;
+  color: white;
+}

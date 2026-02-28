@@ -1,0 +1,5 @@
+aiogram==3.4.1
+flask
+sqlalchemy
+psycopg2-binary
+python-dotenv
