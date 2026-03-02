@@ -12,8 +12,8 @@ from aiogram.types import (
 from aiogram.filters import CommandStart
 from aiogram.enums import ParseMode
 
-API_TOKEN = "YOUR_BOT_TOKEN"
-ADMIN_ID = 123456789
+API_TOKEN = "8452220227:AAF_kV0w9nKd0nNh82xs7RgrRwzW6OtPz1E"
+ADMIN_ID = 110651889
 PAYMENT_PROVIDER_TOKEN = "YOUR_PAYMENT_PROVIDER_TOKEN"
 
 logging.basicConfig(level=logging.INFO)
@@ -25,7 +25,7 @@ menu_keyboard = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(
             text="🍣 Меню",
-            web_app=WebAppInfo(url="https://YOUR_RENDER_URL.onrender.com")
+            web_app=WebAppInfo(url="https://github.com/Ravshan699/sushibot/blob/main/index.html")
         )]
     ],
     resize_keyboard=True
