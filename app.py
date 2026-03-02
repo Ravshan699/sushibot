@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8452220227:AAF_kV0w9nKd0nNh82xs7RgrRwzW6OtPz1E")
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 bot = Bot(token=BOT_TOKEN)
